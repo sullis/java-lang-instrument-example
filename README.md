@@ -8,3 +8,8 @@ java.lang.instrument example
 
 - https://en.wikipedia.org/wiki/Java_bytecode
 - https://bytebuddy.net/
+
+# Java agents
+- [dd-trace-java](https://github.com/DataDog/dd-trace-java)
+- [kanela](https://github.com/kamon-io/kanela)
+- [glowroot-agent](https://github.com/glowroot/glowroot/tree/master/agent)
