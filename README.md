@@ -13,3 +13,6 @@ java.lang.instrument example
 - [dd-trace-java](https://github.com/DataDog/dd-trace-java)
 - [kanela](https://github.com/kamon-io/kanela)
 - [glowroot-agent](https://github.com/glowroot/glowroot/tree/master/agent)
+
+# Articles
+- [a beginners guide to Java agents](https://www.javaadvent.com/2019/12/a-beginners-guide-to-java-agents.html)
