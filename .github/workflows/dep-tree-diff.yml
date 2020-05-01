@@ -1,0 +1,17 @@
+name: dep-tree-diff
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: wildfly/dep-tree-diff-action@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        modules: :java-lang-instrument-example
+        deps-ok-label: No significant dependency changes
+        deps-changed-label: Dependency changes
