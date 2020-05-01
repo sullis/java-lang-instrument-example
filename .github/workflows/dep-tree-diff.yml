@@ -13,5 +13,5 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         modules: :java-lang-instrument-example
-        deps-ok-label: No significant dependency changes
-        deps-changed-label: Dependency changes
+        deps-ok-label: deps-ok
+        deps-changed-label: deps-changed
