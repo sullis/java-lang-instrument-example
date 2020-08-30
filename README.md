@@ -11,6 +11,7 @@ java.lang.instrument example
 
 # Java agents
 - [dd-trace-java](https://github.com/DataDog/dd-trace-java)
+- [opentelemetry-java-instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation)
 - [kanela](https://github.com/kamon-io/kanela)
 - [glowroot-agent](https://github.com/glowroot/glowroot/tree/master/agent)
 
