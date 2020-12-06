@@ -15,6 +15,7 @@ java.lang.instrument example
 - [opentelemetry-java-instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation)
 - [kanela](https://github.com/kamon-io/kanela)
 - [glowroot-agent](https://github.com/glowroot/glowroot/tree/master/agent)
+- [Amazon Disco](https://github.com/awslabs/disco)
 
 # Articles
 - [a beginners guide to Java agents](https://www.javaadvent.com/2019/12/a-beginners-guide-to-java-agents.html)
