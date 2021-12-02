@@ -16,6 +16,7 @@ java.lang.instrument example
 - [kanela](https://github.com/kamon-io/kanela)
 - [glowroot-agent](https://github.com/glowroot/glowroot/tree/master/agent)
 - [Amazon Disco](https://github.com/awslabs/disco)
+- [skywalking-java](https://github.com/apache/skywalking-java)
 
 # Articles
 - [a beginners guide to Java agents](https://www.javaadvent.com/2019/12/a-beginners-guide-to-java-agents.html)
