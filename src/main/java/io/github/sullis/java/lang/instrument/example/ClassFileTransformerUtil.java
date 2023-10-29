@@ -11,6 +11,7 @@ import net.bytebuddy.utility.JavaModule;
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
+import java.security.ProtectionDomain;
 
 public class ClassFileTransformerUtil {
     static private AgentBuilder.Identified.Extendable createBuilder() {
@@ -29,8 +30,9 @@ public class ClassFileTransformerUtil {
 }
 
 class AgentBuilderTransformerImpl implements AgentBuilder.Transformer {
+
     @Override
-    public DynamicType.Builder<?> transform(DynamicType.Builder<?> builder, TypeDescription typeDescription, ClassLoader classLoader, JavaModule javaModule) {
+    public DynamicType.Builder<?> transform(DynamicType.Builder<?> builder, TypeDescription typeDescription, ClassLoader classLoader, JavaModule javaModule, ProtectionDomain protectionDomain) {
         return builder.visit(Advice.to(MethodLogging.class).on(ElementMatchers.any()));
     }
 }
